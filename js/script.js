@@ -46,6 +46,7 @@ rightControl.addEventListener("click", (e)=>{
         i = 0;
     }
     image.src = imgSrc[i];
+        addActiveIndicator(i);
 })
 
 // Предыдущее изображение
