@@ -61,3 +61,4 @@ leftControl.addEventListener("click", (e)=>{
     image.src = imgSrc[i];
     addActiveIndicator(i);
 })
+
